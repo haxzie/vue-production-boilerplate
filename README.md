@@ -1,7 +1,7 @@
 # VUE Production boilerplate
 > Build production ready vue applications with standard structure.  
 ### What does this project contain?
-- Integrated with Vuex/Vue-Router.
+- Integrated with Vuex store and Vue-Router.
 - Modular store management with auto import.
 - Boilerplates for auto reset store.
 - SASS styling setup with global styling.
