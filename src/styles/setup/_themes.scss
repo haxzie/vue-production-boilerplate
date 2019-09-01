@@ -1,4 +1,19 @@
+// main theme colors
+:root {
+  --color-primary: #1563da;
+  --color-secondary: #202020;
+
+  // font colors
+  --font-color: #303030;
+}
+
+
+// copy the main root theme and override the values
+// set this as the class of body/html in /index.html file
 .theme-name {
   --color-primary: #00ffa4;
   --color-secondary: #1d1d1d;
+
+  // font colors
+  --font-color: #303030;
 }

@@ -1,4 +1,16 @@
-# vue-boilerplate
+# VUE Production boilerplate
+> Build production ready vue applications with standard structure.  
+### What does this project contain?
+- Integrated with Vuex/Vue-Router.
+- Modular store management with auto import.
+- Boilerplates for auto reset store.
+- SASS styling setup with global styling.
+- SCSS boilerplates and directory structure.
+- Boilerplates for responsive styling.
+- Included GoogleFonts + Typography styling
+- Included MaterialIcons + Icon styling
+- Included global theme management
+- Well structured components directory
 
 > A Vue.js project
 

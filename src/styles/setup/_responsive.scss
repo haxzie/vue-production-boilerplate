@@ -1,0 +1,41 @@
+.flex-col-on-mobile {
+  @include respond-below(sm) {
+    flex-direction: column;
+  }
+}
+
+.hide-on-mobile {
+  @include respond-below(sm) {
+    display: none;
+  }
+}
+
+.show-on-mobile {
+  @include respond-below(sm) {
+    display: flex;
+  }
+}
+
+.expand-on-mobile {
+  @include respond-below(sm) {
+    flex: 1;
+  }
+}
+
+.fw-on-mobile {
+  @include respond-below(sm) {
+    width: 100% !important;
+  }
+}
+
+.hide-on-pc {
+  @include respond-above(sm) {
+    display: none;
+  }
+}
+
+.show-on-pc {
+  @include respond-above(sm) {
+    display: flex;
+  }
+}
